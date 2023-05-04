@@ -4,7 +4,7 @@ function rollDice() {
     let diceType = parseInt(diceTypeSelect.value);
   
     // generate a random number between 1 and 6
-        let result = Math.floor(Math.random() * diceType) + 1;
+    let result = Math.floor(Math.random() * diceType) + 1;
   
     // display the result in the "result" div
     var resultDiv = document.getElementById("result");
