@@ -1,0 +1,3 @@
+1. User lands on homepage. 
+2. User clicks on the type of dice he wants to use (D6 or D10).
+3. This dice is selected and there is a button to "throw" the dice.

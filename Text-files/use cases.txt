@@ -1,0 +1,4 @@
+functionalities needed:
+- homepage
+- dice selector
+- "throw" button
