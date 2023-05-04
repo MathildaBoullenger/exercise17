@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="Back-end.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Generator</title>
+</head>
+<body>
+<h1>Roll the dice in one click!</h1>
+<label">Select the number of faces:</label>
+<select id="dice-type">
+  <option value="6">6 Faces (D6)</option>
+  <option value="10">10 Faces (D10)</option>
+</select>  
+<br>
+<button style="margin:20px;" onclick="rollDice()">Roll the dice!</button>
+    <div style="color:red;" id="result"></div>
+</body>
+</html>
